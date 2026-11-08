@@ -108,16 +108,16 @@ public class BaseClass {
     }
 
 
-//    @AfterMethod
-//    public void closeBrowser(){
-//        if (driver != null) {
-//            try {
-//                driver.quit();
-//            } catch (Exception e) {
-//                System.out.println("Unable to quite the browser: " + e.getMessage());
-//            }
-//        }
-//    }
+    @AfterMethod
+    public void closeBrowser(){
+        if (driver != null) {
+            try {
+                driver.quit();
+            } catch (Exception e) {
+                System.out.println("Unable to quite the browser: " + e.getMessage());
+            }
+        }
+    }
 
     // Prop getter method
     public static Properties getProp() {

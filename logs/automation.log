@@ -1,7 +1,7 @@
-2026-11-07 20:00:26 [main] INFO  Base.BaseClass - Log file cleaned: logs/automation.log
-2026-11-07 20:00:27 [main] INFO  Base.BaseClass - Testcase Automating with: chrome
-2026-11-07 20:00:29 [main] DEBUG TestCases.TC001_PurchaseItems - debug TC001_PurchaseItems
-2026-11-07 20:00:29 [main] INFO  TestCases.TC001_PurchaseItems - ***Starting TC001_PurchaseItems***
-2026-11-07 20:00:29 [main] INFO  TestCases.TC001_PurchaseItems - Verifying Product List page is working as expected
-2026-11-07 20:00:29 [main] INFO  TestCases.TC001_PurchaseItems - Verifying User can Log in successfully
-2026-11-07 20:00:30 [main] INFO  TestCases.TC001_PurchaseItems - Verifying user redirected to the checkout page
+2026-11-08 19:49:51 [main] INFO  Base.BaseClass - Log file cleaned: logs/automation.log
+2026-11-08 19:49:59 [main] INFO  Base.BaseClass - Testcase Automating with: chrome
+2026-11-08 19:50:00 [main] DEBUG TestCases.TC001_PurchaseItems - debug TC001_PurchaseItems
+2026-11-08 19:50:00 [main] INFO  TestCases.TC001_PurchaseItems - ***Starting TC001_PurchaseItems***
+2026-11-08 19:50:00 [main] INFO  TestCases.TC001_PurchaseItems - Verifying Product List page is working as expected
+2026-11-08 19:50:00 [main] INFO  TestCases.TC001_PurchaseItems - Verifying User can Log in successfully
+2026-11-08 19:50:01 [main] INFO  TestCases.TC001_PurchaseItems - Verifying user redirected to the checkout page
