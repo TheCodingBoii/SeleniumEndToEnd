@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="QA_Reg_ModuleA_Plan1" parallel="false">
+
+
+    <listeners>
+        <listener class-name="utility.ExtentReport.ExtentReportListnerManager"></listener>
+    </listeners>
+
+
+    <test name ="TC001_Links">
+        <classes>
+            <class name="TestCases.TC001_PurchaseItems"/>
+        </classes>
+    </test>
+
+
+
+
+
+
+</suite>
