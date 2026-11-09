@@ -28,6 +28,9 @@ public class ProductItemPage {
     @FindBy(id = "add-to-cart")
     public WebElement addToCartBtn;
 
+    @FindBy(xpath = "//Select[@class='product_sort_container']")
+    public WebElement dropdownSort_ele;
+
     public void ProductItemActions(String expectedProduct){
 
         int productItemCount =productCount_ele.size();
@@ -51,5 +54,14 @@ public class ProductItemPage {
 
 
 
+
+
     }
+
+    public void dropDownSortAction(){
+
+        actionDriver.selectByValue(dropdownSort_ele,"za");
+    }
+
+
 }

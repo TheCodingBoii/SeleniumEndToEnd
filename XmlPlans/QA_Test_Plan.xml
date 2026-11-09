@@ -15,6 +15,12 @@
         </classes>
     </test>
 
+    <test name ="TC002_SortTest">
+        <classes>
+            <class name="TestCases.TC002_SortTest"/>
+        </classes>
+    </test>
+
 
 
 

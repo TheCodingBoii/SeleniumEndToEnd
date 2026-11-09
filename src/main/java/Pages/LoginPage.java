@@ -6,12 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class PurchaseItemPage {
+public class LoginPage {
 
     WebDriver driver;
     private ActionDriver actionDriver;
 
-    public PurchaseItemPage(WebDriver driver){
+    public LoginPage(WebDriver driver){
         this.driver=driver;
         this.actionDriver=new ActionDriver(driver);
         PageFactory.initElements(driver,this);
@@ -24,7 +24,7 @@ public class PurchaseItemPage {
     @FindBy(id = "login-button")
     public WebElement loginButton_ele;
 
-    public void PurchaseItemActions(String username,String password){
+    public void LoginPageActions(String username,String password){
         actionDriver.click(userName_ele);
         userName_ele.sendKeys(username);
 
